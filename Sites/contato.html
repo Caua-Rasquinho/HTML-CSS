@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilo_contato.css" type="text/css">
+        <title>Contaato</title>
+    </head>
+    <body>
+        <article>
+            <header>
+                <h1 id="titulo">Formulario de Contato</h1>
+            </header>
+            <section>
+                <div id="container">
+                    <form id="formuario" action="agradecimento.html">
+                        <p>
+                            <label for="lblNome">Nome</label>
+                            <input type="text" id="strNome" placeholder="Digite seu nome" required>
+                        </p>
+                        <p>
+                            <label for="lblEmail">Email</label>
+                            <input type="text" id="stremail" placeholder="fulano@mail.com.br" required>
+                        </p>
+                        <p>
+                            <label for="lblCelular">Celular</label>
+                            <input type="text" id="strCelular" placeholder="(xx)9xxxx-xxxx" pattern="\([0-9]{2}\)9[0-9]{4}-[0-9]{4}">
+                        </p>
+                        <p>
+                            <label for="lblLogradouro">Logradouro</label>
+                            <input type="text" id="strLogra" placeholder="Rua / Avd. / Pça.">
+                        </p>
+                        <p>
+                            <label for="lblBairro">Bairro</label>
+                            <input type="text" id="strBairro" placeholder="Jd. / Vila">
+                        </p>
+                        <p>
+                            <label for="lblCidade">Cidade</label>
+                            <input type="text" id="strCidade">
+                        </p>
+                        <p>
+                            <label for="lblEstado">Estado</label>
+                            <input type="text" id="strCidade">
+                        </p>
+                        <p>
+                            <label for="lblCep">Cep</label>
+                            <input type="text" id="strCep" pattern="[0-9]{5}-[0-9]{3}">
+                        </p>
+                        <p>
+                            <label for="lblDtNasc">Data de Nascimento</label>
+                            <input type="data" id="strDtNasc">
+                        </p>
+                        <p>
+                            <label for="lblSenha">Senha</label>
+                            <input type="passaword" id="strsenha"  placeholder="Max. 8 digitos" size="8" maxlength="8">
+                        </p>
+                        <p> 
+                        <input type="radio" id="strSexoF" name="strSexo" value="F" />
+                        <label for="rdoSexoF">Feminino</label>&nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="strSexoM" name="strSexo" value="M" />
+                        <label for="rdoSexoM">Masculino</label>
+                        </p>
+                        <p>
+                            <fieldset>
+                                <legend>Conhecimentos Técnicos</legend>
+                                <input type="checkbox" id="strHTML" value="HTML">
+                                <label for="chkHTML">HTML</label>&nbsp;&nbsp;&nbsp;
+                                <input type="checkbox" id="strCSS" name="strCSS" value="CSS">
+                                <label for="chkCSS">CSS</label>&nbsp;&nbsp;&nbsp;
+                                <input type="checkbox" id="strJavascript" name="strJavascript" value="Javascript">
+                                <label for="chkJavasscript">Javascript</label><br>
+
+                                <input type="checkbox" id="strPHP" name="strPHP" value="PHP">
+                                <label for="chkPHP">PHP</label>&nbsp;&nbsp;&nbsp;
+                                <input type="checkbox" id="strJava" name="strJava" value="Java">
+                                <label for="chkJava">Java</label>&nbsp;&nbsp;&nbsp;
+                                <input type="checkbox" id="strNodeJS" name="strNodeJS" value="NodeJS">
+                                <label for="chkNodeJS">NodeJS</label><br>
+
+                                <input type="checkbox" id="strJQuery" name="strJQuery" value="JQuery">
+                                <label for="chkJQuery">JQuery</label>&nbsp;&nbsp;&nbsp;
+                                <input type="checkbox" id="strMySQL" name="strMySQL" value="MySQL">
+                                <label for="chkMySQL">MySQL</label>&nbsp;&nbsp;&nbsp;
+                                <input type="checkbox" id="strC" name="strC" value="Linguagem C">
+                                <label for="chkC">Linguagem C</label> 
+                            </fieldset>
+                        </p>
+                        <p>
+                            <textarea id="txtSugestoes" rows="4" cols="40" placeholder="Comentários e Sugestões"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar" class="botao">&nbsp;&nbsp;&nbsp;<input type="reset" value="apagar" class="botao">
+                        </p>
+                    </form>
+                </div>
+            </section>
+        </article>
+    </body>
+</html>

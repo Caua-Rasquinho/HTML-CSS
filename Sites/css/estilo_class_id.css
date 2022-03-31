@@ -1,0 +1,67 @@
+body{
+    background-color: blueviolet
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    border: 10px double;
+    margin: auto;
+    border-radius: 20px;
+    color:violet;
+    text-align: center
+}
+
+#titulo{
+   text-align: center; 
+   font-family: 'Times New Roman';
+   color: yellow;
+   font-size: 26px
+}
+
+.subtitulo, a{
+    font-family: Arial;
+    color:tomato;
+    text-decoration: none;
+    font-size: 25px
+}
+
+.subtitulo, a:hover{
+color:brown
+}
+
+.paragrafo, p{
+    font-family: Arial;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#cidade_londres, #cidade_paris, #cidade_tokyo, #cidade_moscou{
+    width: 90%;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    opacity: 0.4
+}
+
+#cidade_londres:hover, #cidade_paris:hover, #cidade_tokyo:hover, #cidade_moscou:hover {
+    opacity: 1
+}
+#cidade_londres{
+    border: 2px solid rgba(59, 250, 84, 0.267);
+    margin-bottom: 20px
+}
+
+#cidade_paris{
+    border: 2px solid rgba(59, 250, 84, 0.267)
+}
+
+#cidade_tokyo{
+    border: 2px solid rgba(59, 250, 84, 0.267)
+}
+
+#cidade_moscou{
+    border: 2px solid rgba(59, 250, 84, 0.267)
+}

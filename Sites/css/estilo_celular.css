@@ -1,0 +1,24 @@
+#titulo{
+    font-size: 0.75em;
+    color: burlywood;
+    font-weight: bold;
+}
+
+#grid{
+    border: 1px double rgb(8, 231, 120);
+    background-color:cadetblue
+}
+
+#grid > div{
+    border: 1px double  rgb(27, 2, 13);
+        background-color:darkcyan;
+        font-family: arial;
+        font-size: 1em;
+        font-weight: bold;
+        color:#ffff00
+}
+
+#paragrafo{
+    font-size: 1em;
+
+}

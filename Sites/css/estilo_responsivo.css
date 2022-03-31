@@ -1,0 +1,20 @@
+#titulo{
+    text-align: center;
+    font-family: "Comic Sans MS"
+}
+
+#grid{
+    display:grid;
+    margin: auto;
+    width: 75%
+}
+
+#grid > div{
+    text-align: center;
+}
+
+#paragrafo{
+    text-align: center;
+    font-family: verdana;
+    width: 75%
+}

@@ -1,0 +1,34 @@
+.container {
+    background: url(../imagens/clematis.jpg) repeat;
+    border: 2px solid #000000;
+    margin-bottom: 30px;
+}
+
+#caixa_ouro, #caixa_prata, #caixa_bronze {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #000000;
+    opacity: 0.8;
+}
+
+#caixa_ouro {
+    background-color: #faeb1ce0;
+}
+#caixa_prata {
+    background-color: #a5a5a5;
+}
+
+#caixa_bronze {
+    background-color: #817717e0;
+}
+
+.paragrafo {
+    text-align: center;
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(77, 77, 155)
+}
+
+#titulo{
+    font-family: verdana;
+    font-size:26px;
+    text-align: center;
+    color: darkolivegreen
+}
+
+.paragrafo{
+    font-family: verdana;
+    font-size:18px;
+    text-align: justify;
+    margin: 50px;
+    color: rgb(80, 204, 156)
+}
+
+#regua_horizpntal{
+    width: 90%
+}

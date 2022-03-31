@@ -1,0 +1,19 @@
+#titulo{
+    font-size: 1.5em;
+    color: rgb(24, 248, 3);
+    font-weight: bold
+}
+#grid{
+    grid-template-columns: auto auto auto;
+    grid-gap: 14px;
+    background-color:rgb(198, 255, 43)
+}
+
+#grid > div{
+    border: 6px dashed rgb(240, 6, 220);
+    background-color:darkslategray;
+    font-family: arial;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgba(194, 167, 14, 0.253)
+}
